@@ -1,0 +1,250 @@
+@charset "UTF-8";
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+#banner1_688979197 {
+  background-color: #f9d6ff;
+  border: 0;
+  box-sizing: border-box;
+  cursor: default;
+  display: block;
+  height: 1024px;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+  z-index: 1;
+}
+#banner1_688979197 div {
+  position: absolute;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#banner1_688979197 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+#b_1_banner1_688979197 {
+  top: 160px;
+  left: 9px;
+  z-index: 1;
+}
+
+#img_1_banner1_688979197 {
+  width: 1422px;
+  height: 12px;
+}
+
+#img_1_banner1_688979197.bnfy-enter {
+  -webkit-animation: fade-in 500ms 2400ms ease 1 both;
+  animation: fade-in 500ms 2400ms ease 1 both;
+}
+
+#b_2_banner1_688979197 {
+  top: 510px;
+  left: 0px;
+  z-index: 2;
+}
+
+#img_2_banner1_688979197 {
+  width: 1440px;
+  height: 514px;
+}
+
+#img_2_banner1_688979197.bnfy-enter {
+  -webkit-animation: fade-in 500ms 2100ms ease 1 both;
+  animation: fade-in 500ms 2100ms ease 1 both;
+}
+
+#b_3_banner1_688979197 {
+  top: 40px;
+  left: 104px;
+  z-index: 3;
+}
+
+#img_3_banner1_688979197 {
+  width: 1023px;
+  height: 896px;
+}
+
+#img_3_banner1_688979197.bnfy-enter {
+  -webkit-animation: fade-in 500ms 1800ms ease 1 both;
+  animation: fade-in 500ms 1800ms ease 1 both;
+}
+
+#b_4_banner1_688979197 {
+  top: 22px;
+  left: 44px;
+  z-index: 4;
+}
+
+#img_4_banner1_688979197 {
+  width: 1326px;
+  height: 337px;
+}
+
+#img_4_banner1_688979197.bnfy-enter {
+  -webkit-animation: fade-in 500ms 1500ms ease 1 both;
+  animation: fade-in 500ms 1500ms ease 1 both;
+}
+
+#b_5_banner1_688979197 {
+  top: 798px;
+  left: 549px;
+  z-index: 5;
+}
+
+#img_5_banner1_688979197 {
+  width: 342px;
+  height: 86px;
+}
+
+#img_5_banner1_688979197.bnfy-enter {
+  -webkit-animation: fade-in 500ms 1200ms ease 1 both;
+  animation: fade-in 500ms 1200ms ease 1 both;
+}
+
+#b_6_banner1_688979197 {
+  top: 479px;
+  left: 724px;
+  z-index: 6;
+}
+
+#img_6_banner1_688979197 {
+  width: 433px;
+  height: 84px;
+}
+
+#img_6_banner1_688979197.bnfy-enter {
+  -webkit-animation: fade-in 500ms 900ms ease 1 both;
+  animation: fade-in 500ms 900ms ease 1 both;
+}
+
+#b_7_banner1_688979197 {
+  top: 431px;
+  left: 462px;
+  z-index: 7;
+}
+
+#img_7_banner1_688979197 {
+  width: 269px;
+  height: 173px;
+}
+
+#img_7_banner1_688979197.bnfy-enter {
+  -webkit-animation: fade-in 500ms 600ms ease 1 both;
+  animation: fade-in 500ms 600ms ease 1 both;
+}
+
+#b_8_banner1_688979197 {
+  top: 18px;
+  left: 489px;
+  z-index: 8;
+}
+
+#img_8_banner1_688979197 {
+  width: 455px;
+  height: 287px;
+}
+
+#img_8_banner1_688979197.bnfy-enter {
+  -webkit-animation: fade-in-top 500ms 300ms ease 1 both;
+  animation: fade-in-top 500ms 300ms ease 1 both;
+}
+
+@media (print), (prefers-reduced-motion: reduce) {
+  .banner__element {
+    -webkit-animation-duration: 1ms !important;
+    animation-duration: 1ms !important;
+    -webkit-transition-duration: 1ms !important;
+    transition-duration: 1ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+@-webkit-keyframes simple-show {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@keyframes simple-show {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@-webkit-keyframes simple-hide {
+  0% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+@keyframes simple-hide {
+  0% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fade-in-top {
+  0% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-top {
+  0% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
